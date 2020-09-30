@@ -3,10 +3,14 @@
     "description": "Deploy webssh on Heroku.",
     "keywords": ["webssh2"],
     "env": {
-        "SERVERNAME": {
+        "KEY": {
             "description": "Server Name",
             "value": "webssh2-app1.herokuapp.com"
-        }
+        },
+	"USERNAME": {
+            "description": "User Name",
+            "value": "testuser"
+	}
     },
     "website": "https://nginx-app0.herokuapp.com/",
     "repository": "https://github.com/kulongwangzhi85/webssh2-test",

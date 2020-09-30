@@ -9,7 +9,7 @@
   },
   "ssh": {
     "host": null,
-    "port": 22,
+    "port": null,
     "term": "xterm-color"
   },
   "useminified": false,
