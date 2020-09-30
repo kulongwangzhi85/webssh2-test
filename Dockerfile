@@ -11,7 +11,7 @@ RUN apk update  && \
 	npm install --production
 
 ADD config.json /usr/src/config.json
-ADD cconfigure.sh /configure.sh
+ADD configure.sh /configure.sh
 RUN chmod +x /configure.sh
 CMD /configure.sh
 
