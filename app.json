@@ -5,7 +5,7 @@
     "env": {
         "SERVERNAME": {
             "description": "Server Name",
-            "value": "webssh2-app0.herokuapp.com"
+            "value": "webssh2-app1.herokuapp.com"
         }
     },
     "website": "https://nginx-app0.herokuapp.com/",
