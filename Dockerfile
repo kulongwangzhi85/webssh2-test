@@ -10,6 +10,8 @@ RUN apk update  && \
 	apk del git && \
 	npm install --production
 
-WORKDIR /usr/src
-EXPOSE 2222
-CMD npm run start
+ADD config.json /usr/src/config.json
+ADD cconfigure.sh /configure.sh
+RUN chmod +x /configure.sh
+CMD /configure.sh
+
